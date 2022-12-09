@@ -35,18 +35,18 @@
             class="value"
             :data-content="
                 driver.interval.split(' ')[0] == 'LAP'
-                    ? 'LEADER'
+                    ? 'INTERVAL'
                     : driver.interval
             "
         >
             {{
                 driver.interval.split(" ")[0] == "LAP"
-                    ? "LEADER"
+                    ? "INTERVAL"
                     : driver.interval
             }}
         </div>
         <div v-else class="value" data-content="OUT">OUT</div>
-        <div class="tyre s">S</div>
+        <!-- <div class="tyre s">S</div> -->
     </div>
 </template>
 
