@@ -1,22 +1,29 @@
 {
-  "name": "multiviewer-tower",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.15",
-    "@vue/cli-plugin-typescript": "~4.5.15",
-    "@vue/cli-service": "~4.5.15",
-    "@vue/compiler-sfc": "^3.0.0",
-    "sass": "^1.26.5",
-    "sass-loader": "^8.0.2",
-    "typescript": "~4.1.5"
-  }
+    "name": "multiviewer-tower",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "open-chrome": "open -n -a /Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --args --user-data-dir=\"/tmp/chrome_dev_test\" --disable-web-security"
+    },
+    "dependencies": {
+        "@apollo/client": "^3.7.2",
+        "@vue/apollo-composable": "^4.0.0-beta.1",
+        "core-js": "^3.6.5",
+        "graphql": "^16.6.0",
+        "graphql-request": "^5.0.0",
+        "graphql-tag": "^2.12.6",
+        "gsap": "^3.11.3",
+        "vue": "^3.0.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.15",
+        "@vue/cli-plugin-typescript": "~4.5.15",
+        "@vue/cli-service": "~4.5.15",
+        "@vue/compiler-sfc": "^3.0.0",
+        "sass": "^1.26.5",
+        "sass-loader": "^8.0.2",
+        "typescript": "~4.1.5"
+    }
 }
